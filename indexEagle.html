@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Eagle</title>
+	<link rel="stylesheet" href="styleEagle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function () {
+            $(".1").click(function () {
+                $(".111").toggleClass('online');
+                $(".11").toggleClass('active');
+                $(".222").removeClass('online');
+                $(".22").removeClass("active");
+                $(".333").removeClass('online');
+                $(".33").removeClass("active");
+            });
+        });
+        $(document).ready(function () {
+            $(".2").click(function () {
+                $(".111").removeClass('online');
+                $(".11").removeClass('active');
+                $(".222").toggleClass('online');
+                $(".22").toggleClass('active');
+                $(".333").removeClass('online');
+                $(".33").removeClass("active");
+            });
+        });
+        $(document).ready(function () {
+            $(".3").click(function () {
+                $(".111").removeClass('online');
+                $(".11").removeClass('active');
+                $(".222").removeClass('online');
+                $(".22").removeClass("active");
+                $(".333").toggleClass('online');
+                $(".33").toggleClass("active");
+            });
+        });
+	</script>
+</head>
+<body>
+<div class="eagle">
+	<div class="wrapper"> 
+	<header>
+		<h2 class="logo"><a href="#">MoGo</a></h2>
+		<nav class="nav">
+			<a href="#">ABOUT</a>	
+			<a href="#">SERVICE</a>
+			<a href="#">WORK</a>
+			<a href="#">BLOG</a>
+			<a href="#">CONTACT</a>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15"><path fill="currentColor"; d="M17.73 3.66l-2.48 5.5a.81.81 0 0 1-.7.49l-7.12.47.41 1.18h7.76a1.65 1.65 0 1 1-1.65 1.65h-7.7A1.65 1.65 0 1 1 4.6 11.3h1.49L2.91 2.22H1.02a.82.82 0 0 1 0-1.65H3.5c.36 0 .66.24.78.56l.48 1.37h12.21a.83.83 0 0 1 .76 1.16zm-12.39.49l1.52 4.36 7.09-.48 1.75-3.88z"/></svg></a>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path fill="currentColor"; d="M17.8 16.15a1.65 1.65 0 0 1-2.82 1.17l-4.83-4.84a6.6 6.6 0 1 1 2.33-2.33l4.84 4.83c.3.3.48.71.48 1.17zm-11-14.3a4.95 4.95 0 1 0 0 9.9 4.95 4.95 0 0 0 0-9.9z"/></svg></a>
+		</nav>
+	</header>
+		<div class="promo">
+		<h3 class="promo_h3">Creative Template</h3>
+		<h2 class="promo_h2">WELCOME<br>TO MOGO</h2>
+		<div class="line white"></div>
+		<a href="#" class="learn">LEAN MORE</a>
+		</div>
+		<div class="menu">
+			<a href="#" class="footer_menu"><strong>01</strong> INTRO <div class="line under"></div></a>
+			<a href="#" class="footer_menu"><strong>02</strong> WORK <div class="line under"></div></a>
+			<a href="#" class="footer_menu"><strong>03</strong> ABOUT <div class="line under"></div> </a>
+			<a href="#" class="footer_menu"><strong>04</strong> CONTACTS <div class="line under"></div> </a>
+		</div>
+	</div>
+</div>
+<div class="about">
+	<div class="wrapper">
+		<div class="title">
+			<h3>What we do</h3>
+			<h2>STORY ABOUT US</h2>
+			<div class="line"></div>
+			<div class="span"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+		</div>
+		<div class="photo_transform">
+			<div class="transform"><div class="users"><img src="img/users.svg"><br>SUPER TEAM</div><img src="img/layer-44.png"></div>
+			<div class="transform"><div class="users"><img src="img/users.svg"><br>SUPER TEAM</div><img src="img/layer-39.png"></div>
+			<div class="transform"><div class="users"><img src="img/users.svg"><br>SUPER TEAM</div><img src="img/layer-41.png"></div>
+		</div>
+	</div>
+</div>
+<div class="counter">
+	<div class="wrapper">
+		<div class="cntr">
+			<div class="number"><span class="counter-number"><strong>42</strong></span><br>WEB DESIGN PROJECTS</div>
+			<div class="number"><span class="counter-number"><strong>123</strong></span><br>HAPPY CLIENT</div>
+			<div class="number"><span class="counter-number"><strong>15</strong></span><br>AWARD WINNER</div>
+			<div class="number"><span class="counter-number"><strong>99</strong></span><br>CUP OF COFFE</div>
+			<div class="number"><span class="counter-number"><strong>24</strong></span><br>MEMBERS</div>
+		</div>
+	</div>
+</div>
+<div class="amazing">
+	<div class="wrapper">
+		<div class="title">
+			<h3>We work width</h3>
+			<h2>AMAZING SERVICES</h2>
+			<div class="line"></div>
+		</div>
+		<div class="container">
+			<div class="services"><img src="img/alarm.svg" class="srv"><div class="row"><strong>PHOTOGRAPHY</strong><br><div class="srvs"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span></div></div></div>
+			<div class="services"><img src="img/line-graph.svg" class="srv"><div class="row"><strong>WEB DESIGN</strong><br><div class="srvs"><span>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span></div></div></div>
+			<div class="services"><img src="img/computer---ok.svg" class="srv"><div class="row"><strong>CREATIVITY</strong><br><div class="srvs"><span>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span></div></div></div>
+			<div class="services"><img src="img/book-2.svg" class="srv2"><div class="row"><strong>SEO</strong><br><div class="srvs"><span>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span></div></div></div>
+			<div class="services"><img src="img/home.svg" class="srv2"><div class="row"><strong>SCC/HTML</strong><br><div class="srvs"><span>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</span></div></div></div>
+			<div class="services"><img src="img/image.svg" class="srv2"><div class="row"><strong>DIGITAL</strong><br><div class="srvs"><span>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span></div></div></div>
+		</div>
+	</div>
+</div>
+<div class="unique">
+	<div class="wrapper">
+		<div class="title">
+			<h3>For all devices</h3>
+			<h2>UNIQUE DESIGN</h2>
+			<div class="line"></div>
+			<div class="devices"><img src="img/display-bg-768x1024.png"><img src="img/white.png" class="iphone"></div>
+		</div>
+	</div>
+</div>
+<div class="whatwedo">
+	<div class="wrapper">
+		<div class="title">
+			<h3>Service</h3>
+			<h2>WHAT WE DO</h2>
+			<div class="line"></div>
+			<div class="span"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+		</div>
+		<div class="arrowdown">
+			<img src="img/layer-43.png">
+			<div class="arrow">
+				<div class="holder">
+					<img src="img/picture.svg" class="pctr-holder">
+					<div class="holder-head 1"><strong>PHOTOGRAPHY</strong><img src="img/arrow---down.svg" class="rotate 111 online"></div>
+					<div class="discription 11 active"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+				</div>
+				<div class="holder">
+					<img src="img/equalizer.svg" class="pctr-holder">
+					<div class="holder-head 2"><strong>CREATIVITY</strong><img src="img/arrow---down.svg" class="rotate 222"></div>
+					<div class="discription 22"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+				</div>
+				<div class="holder">
+					<img src="img/bullseye.svg" class="pctr-holder">
+					<div class="holder-head 3"><strong>WEB DESIGN</strong><img src="img/arrow---down.svg" class="rotate 333"></div>
+					<div class="discription 33"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="JonDoe">
+	<div class="wrapper">
+		<div class="box">
+			<a href="#"><img src="img/arrow---down-copy-2.svg"></a>
+			<div class="speech"><img src="img/2-layers.svg"></div>
+			<div class="quote"><span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</span><div class="inline"><div class="line"></div>Jon Doe</div></div>
+			<a href="#"><img src="img/arrow---down-copy.svg"></a>
+		</div>
+	</div>
+</div>
+<div class="team">
+	<div class="wrapper">
+		<div class="title">
+			<h3>Who we are</h3>
+			<h2>MEET OUR TEAM</h2>
+			<div class="line"></div>
+			<div class="span"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+		</div>
+		<div class="photo_transform">
+			<div class="transform"><div class="networks">
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="26" viewBox="0 0 13 26"><path fill="currentColor" d="M12.09.2v4.12s-3.04-.3-3.8.86c-.41.64-.17 2.5-.2 3.84h4.02c-.34 1.56-.58 2.62-.83 3.98H8.06v12.8H2.48V13.05H.11V9.02h2.34c.12-2.95.17-5.87 1.63-7.35C5.73 0 7.3.2 12.08.2z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22"><path fill="currentColor" d="M17.51.6a5.4 5.4 0 0 1 4.15 1.65A8.66 8.66 0 0 0 25.01.98a5.27 5.27 0 0 1-1.7 2.47c-.18.14-.36.32-.58.41v.01c1.14-.01 2.08-.52 2.97-.8v.01c-.47.74-1.1 1.5-1.78 2.04l-.82.65c.01 1.21-.02 2.36-.24 3.38-1.32 5.89-4.8 9.89-10.3 11.61-1.97.61-5.16.87-7.43.31-1.12-.28-2.13-.6-3.08-1.01a11.5 11.5 0 0 1-1.49-.77l-.46-.28c.51.01 1.1.15 1.68.06.51-.08 1.02-.06 1.5-.16 1.19-.26 2.24-.61 3.15-1.14.44-.26 1.1-.56 1.42-.93a5.3 5.3 0 0 1-4.9-3.64c.52.05 2 .19 2.35-.11a3.77 3.77 0 0 1-1.71-.69A5.03 5.03 0 0 1 1.1 7.91l.54.25c.34.15.7.23 1.1.31.18.04.52.14.72.06h-.03c-.26-.3-.7-.51-.96-.84A5.36 5.36 0 0 1 1.3 2.93a6 6 0 0 1 .57-1.37l.02.01c.1.22.33.37.48.55.45.56 1 1.06 1.56 1.5a15.43 15.43 0 0 0 8.78 3.41 4.9 4.9 0 0 1 .02-2.47A5.16 5.16 0 0 1 16.87.68l.64-.08z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="26" viewBox="0 0 21 26"><path fill="currentColor" d="M9.05 16.85l-.64 2.56c-.21.85-.4 1.7-.71 2.47a12.7 12.7 0 0 1-2.05 3.53c-.57.66-.45.4-.62.36-.14-.03-.15-.16-.17-.34-.14-1.02-.05-2.2 0-3.34.06-1.31.34-2.39.6-3.47l1.43-6.17c.03-.14.12-.37.09-.44a6.47 6.47 0 0 1-.43-1.7c-.07-.7-.02-1.35.14-1.95.28-1.06.91-1.99 1.9-2.34a2.2 2.2 0 0 1 1.73.14c.43.25.73.66.86 1.24.15.62.04 1.35-.08 1.89-.26 1.22-.61 2.14-.93 3.31-.16.59-.34 1.19-.2 1.81.14.58.45.98.86 1.28.42.31.92.48 1.62.46 1.23-.05 2.08-.83 2.65-1.57a9.3 9.3 0 0 0 1.68-4.69c.06-.61.11-1.32.07-2.01a5.47 5.47 0 0 0-1.13-3.12 5.28 5.28 0 0 0-2.51-1.71 8.29 8.29 0 0 0-3.75-.23 6.61 6.61 0 0 0-4.91 3.53c-.5.95-.84 2.05-.84 3.41 0 1.05.26 1.86.68 2.5.13.2.32.37.45.6.19.32-.02.81-.11 1.16-.11.43-.13 1.01-.62 1.02-.2.01-.47-.14-.64-.24-1.3-.72-2.1-2.03-2.42-3.74a8.88 8.88 0 0 1 0-3.23 9.22 9.22 0 0 1 4.4-6.15A10.4 10.4 0 0 1 9.34.34c.5-.08 1.03-.11 1.6-.13a9.63 9.63 0 0 1 4.33.8 8.86 8.86 0 0 1 2.98 2.15 8.14 8.14 0 0 1 1.84 3.31c.2.69.4 1.43.4 2.29 0 .85-.19 1.61-.31 2.37-.48 2.82-1.82 5.14-3.84 6.45a6.4 6.4 0 0 1-1.76.81c-.66.2-1.42.34-2.24.29a4.64 4.64 0 0 1-1.98-.58 3.3 3.3 0 0 1-1.32-1.25z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path fill="currentColor" d="M22.7 25.8H3.5a3.2 3.2 0 0 1-3.2-3.2V3.4A3.2 3.2 0 0 1 3.5.2h19.2a3.2 3.2 0 0 1 3.2 3.2v19.2a3.2 3.2 0 0 1-3.2 3.2zM13.1 8.04c-2 0-3.71 1.18-4.5 2.88l-.03.05a6.4 6.4 0 0 0-.12.33l-.06.15-.1.34c0 .05-.03.11-.04.16l-.06.37-.02.15a4.96 4.96 0 1 0 9.86 0l-.02-.15-.06-.37a4.72 4.72 0 0 0-.05-.16c-.02-.11-.05-.23-.09-.34l-.06-.15a6.4 6.4 0 0 0-.13-.33c0-.01 0-.03-.02-.05a4.95 4.95 0 0 0-4.5-2.88zm9.92-3.68c0-.71-.57-1.28-1.28-1.28h-2.56c-.7 0-1.28.57-1.28 1.28v2.56c0 .71.57 1.28 1.28 1.28h2.56c.7 0 1.28-.57 1.28-1.28zm0 6.56h-2.36a7.83 7.83 0 0 1-7.56 9.92 7.84 7.84 0 0 1-7.56-9.92H3.18v10.72c0 .71.57 1.28 1.28 1.28h17.28c.7 0 1.28-.57 1.28-1.28z"/></svg></a></div></div>
+			</div><img src="img/layer-16.png"></div>
+			<div class="transform"><div class="networks">
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="26" viewBox="0 0 13 26"><path fill="currentColor" d="M12.09.2v4.12s-3.04-.3-3.8.86c-.41.64-.17 2.5-.2 3.84h4.02c-.34 1.56-.58 2.62-.83 3.98H8.06v12.8H2.48V13.05H.11V9.02h2.34c.12-2.95.17-5.87 1.63-7.35C5.73 0 7.3.2 12.08.2z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22"><path fill="currentColor" d="M17.51.6a5.4 5.4 0 0 1 4.15 1.65A8.66 8.66 0 0 0 25.01.98a5.27 5.27 0 0 1-1.7 2.47c-.18.14-.36.32-.58.41v.01c1.14-.01 2.08-.52 2.97-.8v.01c-.47.74-1.1 1.5-1.78 2.04l-.82.65c.01 1.21-.02 2.36-.24 3.38-1.32 5.89-4.8 9.89-10.3 11.61-1.97.61-5.16.87-7.43.31-1.12-.28-2.13-.6-3.08-1.01a11.5 11.5 0 0 1-1.49-.77l-.46-.28c.51.01 1.1.15 1.68.06.51-.08 1.02-.06 1.5-.16 1.19-.26 2.24-.61 3.15-1.14.44-.26 1.1-.56 1.42-.93a5.3 5.3 0 0 1-4.9-3.64c.52.05 2 .19 2.35-.11a3.77 3.77 0 0 1-1.71-.69A5.03 5.03 0 0 1 1.1 7.91l.54.25c.34.15.7.23 1.1.31.18.04.52.14.72.06h-.03c-.26-.3-.7-.51-.96-.84A5.36 5.36 0 0 1 1.3 2.93a6 6 0 0 1 .57-1.37l.02.01c.1.22.33.37.48.55.45.56 1 1.06 1.56 1.5a15.43 15.43 0 0 0 8.78 3.41 4.9 4.9 0 0 1 .02-2.47A5.16 5.16 0 0 1 16.87.68l.64-.08z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="26" viewBox="0 0 21 26"><path fill="currentColor" d="M9.05 16.85l-.64 2.56c-.21.85-.4 1.7-.71 2.47a12.7 12.7 0 0 1-2.05 3.53c-.57.66-.45.4-.62.36-.14-.03-.15-.16-.17-.34-.14-1.02-.05-2.2 0-3.34.06-1.31.34-2.39.6-3.47l1.43-6.17c.03-.14.12-.37.09-.44a6.47 6.47 0 0 1-.43-1.7c-.07-.7-.02-1.35.14-1.95.28-1.06.91-1.99 1.9-2.34a2.2 2.2 0 0 1 1.73.14c.43.25.73.66.86 1.24.15.62.04 1.35-.08 1.89-.26 1.22-.61 2.14-.93 3.31-.16.59-.34 1.19-.2 1.81.14.58.45.98.86 1.28.42.31.92.48 1.62.46 1.23-.05 2.08-.83 2.65-1.57a9.3 9.3 0 0 0 1.68-4.69c.06-.61.11-1.32.07-2.01a5.47 5.47 0 0 0-1.13-3.12 5.28 5.28 0 0 0-2.51-1.71 8.29 8.29 0 0 0-3.75-.23 6.61 6.61 0 0 0-4.91 3.53c-.5.95-.84 2.05-.84 3.41 0 1.05.26 1.86.68 2.5.13.2.32.37.45.6.19.32-.02.81-.11 1.16-.11.43-.13 1.01-.62 1.02-.2.01-.47-.14-.64-.24-1.3-.72-2.1-2.03-2.42-3.74a8.88 8.88 0 0 1 0-3.23 9.22 9.22 0 0 1 4.4-6.15A10.4 10.4 0 0 1 9.34.34c.5-.08 1.03-.11 1.6-.13a9.63 9.63 0 0 1 4.33.8 8.86 8.86 0 0 1 2.98 2.15 8.14 8.14 0 0 1 1.84 3.31c.2.69.4 1.43.4 2.29 0 .85-.19 1.61-.31 2.37-.48 2.82-1.82 5.14-3.84 6.45a6.4 6.4 0 0 1-1.76.81c-.66.2-1.42.34-2.24.29a4.64 4.64 0 0 1-1.98-.58 3.3 3.3 0 0 1-1.32-1.25z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path fill="currentColor" d="M22.7 25.8H3.5a3.2 3.2 0 0 1-3.2-3.2V3.4A3.2 3.2 0 0 1 3.5.2h19.2a3.2 3.2 0 0 1 3.2 3.2v19.2a3.2 3.2 0 0 1-3.2 3.2zM13.1 8.04c-2 0-3.71 1.18-4.5 2.88l-.03.05a6.4 6.4 0 0 0-.12.33l-.06.15-.1.34c0 .05-.03.11-.04.16l-.06.37-.02.15a4.96 4.96 0 1 0 9.86 0l-.02-.15-.06-.37a4.72 4.72 0 0 0-.05-.16c-.02-.11-.05-.23-.09-.34l-.06-.15a6.4 6.4 0 0 0-.13-.33c0-.01 0-.03-.02-.05a4.95 4.95 0 0 0-4.5-2.88zm9.92-3.68c0-.71-.57-1.28-1.28-1.28h-2.56c-.7 0-1.28.57-1.28 1.28v2.56c0 .71.57 1.28 1.28 1.28h2.56c.7 0 1.28-.57 1.28-1.28zm0 6.56h-2.36a7.83 7.83 0 0 1-7.56 9.92 7.84 7.84 0 0 1-7.56-9.92H3.18v10.72c0 .71.57 1.28 1.28 1.28h17.28c.7 0 1.28-.57 1.28-1.28z"/></svg></a></div></div>
+			</div><img src="img/layer-19.png"></div>
+			<div class="transform"><div class="networks">
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="26" viewBox="0 0 13 26"><path fill="currentColor" d="M12.09.2v4.12s-3.04-.3-3.8.86c-.41.64-.17 2.5-.2 3.84h4.02c-.34 1.56-.58 2.62-.83 3.98H8.06v12.8H2.48V13.05H.11V9.02h2.34c.12-2.95.17-5.87 1.63-7.35C5.73 0 7.3.2 12.08.2z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22"><path fill="currentColor" d="M17.51.6a5.4 5.4 0 0 1 4.15 1.65A8.66 8.66 0 0 0 25.01.98a5.27 5.27 0 0 1-1.7 2.47c-.18.14-.36.32-.58.41v.01c1.14-.01 2.08-.52 2.97-.8v.01c-.47.74-1.1 1.5-1.78 2.04l-.82.65c.01 1.21-.02 2.36-.24 3.38-1.32 5.89-4.8 9.89-10.3 11.61-1.97.61-5.16.87-7.43.31-1.12-.28-2.13-.6-3.08-1.01a11.5 11.5 0 0 1-1.49-.77l-.46-.28c.51.01 1.1.15 1.68.06.51-.08 1.02-.06 1.5-.16 1.19-.26 2.24-.61 3.15-1.14.44-.26 1.1-.56 1.42-.93a5.3 5.3 0 0 1-4.9-3.64c.52.05 2 .19 2.35-.11a3.77 3.77 0 0 1-1.71-.69A5.03 5.03 0 0 1 1.1 7.91l.54.25c.34.15.7.23 1.1.31.18.04.52.14.72.06h-.03c-.26-.3-.7-.51-.96-.84A5.36 5.36 0 0 1 1.3 2.93a6 6 0 0 1 .57-1.37l.02.01c.1.22.33.37.48.55.45.56 1 1.06 1.56 1.5a15.43 15.43 0 0 0 8.78 3.41 4.9 4.9 0 0 1 .02-2.47A5.16 5.16 0 0 1 16.87.68l.64-.08z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="26" viewBox="0 0 21 26"><path fill="currentColor" d="M9.05 16.85l-.64 2.56c-.21.85-.4 1.7-.71 2.47a12.7 12.7 0 0 1-2.05 3.53c-.57.66-.45.4-.62.36-.14-.03-.15-.16-.17-.34-.14-1.02-.05-2.2 0-3.34.06-1.31.34-2.39.6-3.47l1.43-6.17c.03-.14.12-.37.09-.44a6.47 6.47 0 0 1-.43-1.7c-.07-.7-.02-1.35.14-1.95.28-1.06.91-1.99 1.9-2.34a2.2 2.2 0 0 1 1.73.14c.43.25.73.66.86 1.24.15.62.04 1.35-.08 1.89-.26 1.22-.61 2.14-.93 3.31-.16.59-.34 1.19-.2 1.81.14.58.45.98.86 1.28.42.31.92.48 1.62.46 1.23-.05 2.08-.83 2.65-1.57a9.3 9.3 0 0 0 1.68-4.69c.06-.61.11-1.32.07-2.01a5.47 5.47 0 0 0-1.13-3.12 5.28 5.28 0 0 0-2.51-1.71 8.29 8.29 0 0 0-3.75-.23 6.61 6.61 0 0 0-4.91 3.53c-.5.95-.84 2.05-.84 3.41 0 1.05.26 1.86.68 2.5.13.2.32.37.45.6.19.32-.02.81-.11 1.16-.11.43-.13 1.01-.62 1.02-.2.01-.47-.14-.64-.24-1.3-.72-2.1-2.03-2.42-3.74a8.88 8.88 0 0 1 0-3.23 9.22 9.22 0 0 1 4.4-6.15A10.4 10.4 0 0 1 9.34.34c.5-.08 1.03-.11 1.6-.13a9.63 9.63 0 0 1 4.33.8 8.86 8.86 0 0 1 2.98 2.15 8.14 8.14 0 0 1 1.84 3.31c.2.69.4 1.43.4 2.29 0 .85-.19 1.61-.31 2.37-.48 2.82-1.82 5.14-3.84 6.45a6.4 6.4 0 0 1-1.76.81c-.66.2-1.42.34-2.24.29a4.64 4.64 0 0 1-1.98-.58 3.3 3.3 0 0 1-1.32-1.25z"/></svg></a></div></div>
+				<div class="icons"><div class="vsg"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path fill="currentColor" d="M22.7 25.8H3.5a3.2 3.2 0 0 1-3.2-3.2V3.4A3.2 3.2 0 0 1 3.5.2h19.2a3.2 3.2 0 0 1 3.2 3.2v19.2a3.2 3.2 0 0 1-3.2 3.2zM13.1 8.04c-2 0-3.71 1.18-4.5 2.88l-.03.05a6.4 6.4 0 0 0-.12.33l-.06.15-.1.34c0 .05-.03.11-.04.16l-.06.37-.02.15a4.96 4.96 0 1 0 9.86 0l-.02-.15-.06-.37a4.72 4.72 0 0 0-.05-.16c-.02-.11-.05-.23-.09-.34l-.06-.15a6.4 6.4 0 0 0-.13-.33c0-.01 0-.03-.02-.05a4.95 4.95 0 0 0-4.5-2.88zm9.92-3.68c0-.71-.57-1.28-1.28-1.28h-2.56c-.7 0-1.28.57-1.28 1.28v2.56c0 .71.57 1.28 1.28 1.28h2.56c.7 0 1.28-.57 1.28-1.28zm0 6.56h-2.36a7.83 7.83 0 0 1-7.56 9.92 7.84 7.84 0 0 1-7.56-9.92H3.18v10.72c0 .71.57 1.28 1.28 1.28h17.28c.7 0 1.28-.57 1.28-1.28z"/></svg></a></div></div>
+			</div><img src="img/layer-18.png"></div>
+		</div>
+		<div class="names">
+			<div>Matthew Dix<br><span class="designers">Graphic Design</span></div>
+			<div>Christopher Campbell<br><span class="designers">Branding/UX design</span></div>
+			<div>Michael Fertig<br><span class="designers">Developer</span></div>
+		</div>
+	</div>
+</div>
+<div class="JonDoe">
+	<div class="wrapper">
+		<div class="hip"><img src="img/layer-25.png"></div>
+	</div>
+</div>
+<div class="photo">
+	<div class="wrapper">
+		<div class="title">
+			<h3>What we do</h3>
+			<h2>SOME OF OUR WORK</h2>
+			<div class="line"></div>
+			<div class="span"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
+		</div>
+	</div>	
+		<div class="photos">
+			<div><img src="img/layer-26.png"><img src="img/layer-35.png"></div>
+			<div><img src="img/layer-33.png"><img src="img/layer-29.png"></div>
+			<div><img src="img/layer-34.png"></div>
+			<div><img src="img/layer-31.png"><img src="img/layer-32.png"></div>
+		</div>
+</div>
+<div class="joshua">
+	<div class="wrapper">
+		<div class="box">
+			<a href="#"><img src="img/arrow---down-copy-2.svg"></a>
+			<div class="speech"><img src="img/layer-36.png"></div>
+			<div class="quote"><span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</span><div class="inline"><div class="line"></div>Joshua Earle</div></div>
+			<a href="#"><img src="img/arrow---down-copy.svg"></a>
+		</div>
+	</div>
+</div>
+<div class="happy-clients">
+	<div class="wrapper">
+		<div class="title">
+			<h3>Happy Clients</h3>
+			<h2>WHAT PEOPLE SAY</h2>
+			<div class="line"></div>
+		</div>
+		<div class="client-container">
+			<div class="block-team up lft">
+			<img src="img/layer-47.png" class="clientphoto"><div class="box-client"><div class="name"><strong>Matthew Dix</strong></div><span class="designers">Graphic Design</span><div class="line"></div><div class="comments"><span class="designers">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</span></div></div>
+			</div>
+			<div class="block-team up rght">
+			<img src="img/layer-49.png" class="clientphoto"><div class="box-client"><div class="name"><strong>Nick Karvounis</strong></div><span class="designers">Graphic Design</span><div class="line"></div><div class="comments"><span class="designers">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</span></div></div>
+			</div>
+			<div class="block-team down lft">
+			<img src="img/layer-50.png" class="clientphoto"><div class="box-client"><div class="name"><strong>Jaelynn Castillo</strong></div><span class="designers">Graphic Design</span><div class="line"></div><div class="comments"><span class="designers">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</span></div></div>
+			</div>
+			<div class="block-team down rght">
+			<img src="img/layer-51.png" class="clientphoto"><div class="box-client"><div class="name"><strong>Mike Petrucci</strong></div><span class="designers">Graphic Design</span><div class="line"></div><div class="comments"><span class="designers">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</span></div></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="stories">
+	<div class="wrapper">
+		<div class="title">
+			<h3>Our stories</h3>
+			<h2>LATEST BLOG</h2>
+			<div class="line"></div>
+		</div>
+		<div class="box-blog">
+			<div class="blog">
+				<img src="img/layer-54.png">
+				<div class="date"><div class="date-number">15</div><span class="month"><em>Jan</em></span></div>
+				<div class="name"><strong>Lorem ipsum dolor sit amet</strong></div>
+				<span class="designers">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				<span class="designers view"><img src="img/view.svg"> 542 <img src="img/speech-bubble-2.svg"> 17</span>
+			</div>
+			<div class="blog">
+				<img src="img/layer-55.png">
+				<div class="date"><div class="date-number">14</div><span class="month"><em>Jan</em></span></div>
+				<div class="name"><strong>Sed do eiusmod tempor</strong></div>
+				<span class="designers">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				<span class="designers view"><img src="img/view.svg"> 992 <img src="img/speech-bubble-2.svg"> 42</span>
+			</div>
+			<div class="blog">
+				<img src="img/layer-57.png">
+				<div class="date"><div class="date-number">12</div><span class="month"><em>Jan</em></span></div>
+				<div class="name"><strong>Incididunt ut labore et dolore</strong></div>
+				<span class="designers">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				<span class="designers view"><img src="img/view.svg"> 1560 <img src="img/speech-bubble-2.svg"> 98</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="map">
+	<div class="wrapper">
+	<div class="wrapper-open">
+			<div class="open">
+				<img src="img/pin-2.svg">
+				<div class="open-map">OPEN MAP</div>
+				<div class="line"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="futr">
+	<div class="wrapper">
+		<div class="box-futr">
+			<div class="MG-futr">
+				<div class="MG"><strong>MoGo</strong></div>
+				<span class="designers lst">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </span>
+				<div><strong>15k</strong> followers</div>
+				<div class="followus"><span class="designers">Follow Us:</span>
+					<a href="#"><img src="img/facebook.svg"></a>
+					<a href="#"><img src="img/twitter.svg"></a>
+					<a href="#"><img src="img/instagram.svg"></a>
+					<a href="#"><img src="img/pinterest.svg"></a>
+					<a href="#"><img src="img/google-plus.svg"></a>
+					<a href="#"><img src="img/youtube.svg"></a>
+					<a href="#"><img src="img/dribbble.svg"></a>
+					<a href="#"><img src="img/tumblr.svg"></a>
+				</div>
+				<div><input type="email" name="email-address" placeholder="Your email..."><button>SUBSCRIBE</button></div>
+			</div>
+			<div class="Ljblog">
+				<div class="insta"><strong>BLOGS</strong></div>
+				<div class="blogs-img"><img src="img/photos-7884rhdsw8yqbsyn.png">
+					<div class="blogs-text"><div>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</div><span class="designers"><em>Jan</em> 9, 2016</span></div>
+				</div>
+				<div class="blogs-img"><img src="img/photos-7884lejlfh9mn8ic.png">
+					<div class="blogs-text"><div>CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR</div><span class="designers"><em>Jan</em> 9, 2016</span></div>
+				</div>
+				<div class="blogs-img"><img src="img/photos-7884p2smgicszfyn.png">
+					<div class="blogs-text"><div>SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE</div><span class="designers"><em>Jan</em> 9, 2016</span></div>
+				</div>
+			</div>
+			<div class="Instagram">
+			<div class="insta"><strong>IMSTAGRAM</strong></div>
+				<img src="img/18-layers.png">
+			<a href="#"><span class="designers">View more photos</span></a>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="wrapper">
+	<div class="wrapper-psd">
+	<div class="psd">© 2016 MoGo free PSD template by <span class="laaqiq">Laaqiq</span></div>
+	</div>
+	</div>
+</footer>
+</body>
+</html>
