@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Test</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fonts.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function() {
+		$('.object').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+100) {
+				$(this).addClass("fadeIn");
+			}
+		});
+	});
+
+	$(window).on('load', function () {
+    var $preloader = $('#page-preloader'),
+        $spinner   = $preloader.find('.spinner');
+    $spinner.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+});
+	</script>
+</head>
+<body>
+	<div id="page-preloader"><span class="spinner"></span></div>
+	<div class="whole_wrapper">
+	<div class="imgHeader"><div><img src="img/ellipse-3.png"></div></div>
+	<div class="wrapper">
+ 		<header class="headerInHeader">
+				<a href="#" class="logo">
+							<img src="img/vector-smart-object.svg">
+							<div>
+								<p><span class="extrabold">helicopter</span></p>
+								<p><span class="extrabold">view.</span></p>
+							</div>		
+				</a>
+				<nav>
+					<div class="lines"></div>
+					<ul>
+						<li>
+							<a href="#"><div class="line"></div><span class="extrabold">about us.</span></a>
+						</li>
+						<li>
+							<a href="#"><div class="line"></div><span class="extrabold">service.</span></a>
+						</li>
+						<li>
+							<a href="#"><div class="line"></div><span class="extrabold">our projects.</span></a>
+						</li>
+						<li>
+							<a href="#"><div class="line"></div><span class="extrabold">process.</span></a>
+						</li>
+						<li>
+							<a href="#"><div class="line"></div><span class="extrabold">faq.</span></a>
+						</li>
+						<li>
+							<a href="#"><div class="line"></div><span class="extrabold">blog.</span></a>
+						</li>
+						<li>
+							<a href="#"><div class="line"></div><span class="extrabold">contacts.</span></a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		<div class="intro">
+				<h1><span class="extrabold">service<span class="aqua">.</span></span></h1>
+				<p><span class="semibold"> We identify compelling investment opportunities, opening doors that might otherwise appear closed.</span></p>
+				<p><span class="semibold">We facilitate all aspects of deal execution.</span></p>
+		</div>
+	<div class="intro">
+	<div class="container">
+		<div class="intro object">
+			<img class="animate" src="img/shape-48.svg">
+			<p><span class="extrabold">Development</span></p>
+			<p><span class="semibold">of the acquisition or</span></p>
+			<p><span class="semibold">sales strategy</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-50.svg">
+			<p><span class="extrabold">Company analysis,</span></p>
+			<p><span class="semibold">preparation of the investment</span></p>
+			<p><span class="semibold">memorandum</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-49.svg">
+			<p><span class="semibold">Undertaking comprehensive</span></p>
+			<p><span class="extrabold">industry and market</span></p>
+			<p><span class="extrabold">researches</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-51.svg">
+			<p><span class="extrabold">Identifying transaction</span></p>
+			<p><span class="extrabold">opportunities</span></p>
+			<p><span class="semibold">based on a client’s objectives</span></p>
+			<p><span class="semibold">and strategy</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-52.svg">
+			<p>Determining an</p>
+			<p><span class="extrabold">appropriate valuation</span></p>
+			<p><span class="semibold">for the businesses, facilities</span></p>
+			<p><span class="semibold">and other assets</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-53.svg">
+			<p><span class="semibold">Serving as a intermediary in</span></p>
+			<p><span class="extrabold">negotiations</span></p>
+			<p><span class="semibold">with any level of complexity to get</span></p>
+			<p><span class="semibold">the best possible price and terms</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-46.svg">
+			<p><span class="extrabold">Providing counsel</span></p>
+			<p><span class="semibold">to the clients in helping secure</span></p>
+			<p><span class="semibold">acquisitions, leading the due</span></p>
+			<p><span class="semibold">diligence process</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-56.svg">
+			<p><span class="semibold">Negotiating the</p>
+			<p><span class="extrabold">relevant legal documents,</span></p>
+			<p><span class="semibold">drafting contracts</span></p>
+			<p><span class="semibold">and legal documentation</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-55.svg">
+			<p><span class="extrabold">Managing PR</span></p>
+			<p><span class="extrabold">and reputation</span></p>
+			<p><span class="semibold">around the transaction</span></p>
+		</div>
+		<div class="intro object">
+			<img class="animate" src="img/shape-58-copy.svg">
+			<p><span class="semibold">Continuing advice</span></p>
+			<p><span class="semibold">and support during the</span></p>
+			<p><span class="extrabold">post-acquisition period</span></p>
+		</div>
+	</div>
+</div>
+	<div class="intro object">
+		<h2><span class="extrabold">our offer<span class="aqua">.</span></span></h2>
+	</div>
+	<div class="intro object">
+	<div class="container_grid">
+		<div class="box">
+			<div class="box__img">
+				<img class="inbox" src="img/shape-59.svg">
+			</div>
+			</p><span class="extrabold">100% Clear-Cut Hit</span><p>
+			</p><span class="semibold">We only identify companies that precisely match your brief,</span><p>
+			</p><span class="semibold">because we underttake comprehensive market research, wte take</span><p>
+			</p><span class="semibold">every detail of your strategy into account and provide sustainable</span><p>
+			</p><span class="semibold">and efficient deal execution</span><p>
+		</div>
+		<div class="box">
+			<div class="box__img">
+				<img class="inbox" src="img/shape-60.svg">
+			</div>
+			</p><span class="extrabold">Active searching</span><p>
+			</p><span class="semibold">We can approach shareholders directly so as to acquire “not for</span><p>
+			</p><span class="semibold">sale” or to sell for “not acquiring” targets</span><p>
+		</div>
+		<div class="box">
+			<div class="box__img">
+				<img class="inbox" src="img/shape-61.svg">
+			</div>
+			</p><span class="extrabold">Professionalism</span><p>
+			</p><span class="semibold">For each project we establish a team of the best qualified</span><p>
+			</p><span class="semibold">because we underttake comprehensive market research, wte take</span><p>
+			</p><span class="semibold">every detail of your strategy into account and provide sustainable</span><p>
+			</p><span class="semibold">and efficient deal execution</span><p>
+		</div>
+		<div class="box">
+			<div class="box__img">
+				<img class="inbox" src="img/shape-62.svg">
+			</div>
+			</p><span class="extrabold">Negotiation</span><p>
+			</p><span class="semibold">We can help to get the best possible price and terms by ensuring</span><p>
+			</p><span class="semibold">responsive communication, high quality preparation, applying all</span><p>
+			</p><span class="semibold">our experience and skills.</span><p>
+		</div>
+		<div class="box">
+			<div class="box__img">
+				<img class="inbox" src="img/shape-63.svg">
+			</div>
+			</p><span class="extrabold">Confidentiality</span><p>
+			</p><span class="semibold">Maintaining confidentiality is our specialty and that’s why your</span><p>
+			</p><span class="semibold">information would not be shared with any third party without your</span><p>
+			</p><span class="semibold">written permission.</span><p>
+		</div>
+		<div class="box">
+			<div class="box__img">
+				<img class="inbox" src="img/shape-64.svg">
+			</div>
+			</p><span class="extrabold">Guarantee</span><p>
+			</p><span class="semibold">If we don't achieve the desired results, you pay nothing. There are</span><p>
+			</p><span class="semibold">few, if any advisers offering the same no risk offer.</span><p>
+		</div>
+		<div class="box">
+			<div class="box__img">
+				<img class="inbox" src="img/shape-65.svg">
+			</div>
+			</p><span class="extrabold">Free support</span><p>
+			</p><span class="semibold">We offer three months post-acquisition support at no extra cost.</span><p>
+		</div>
+	</div>
+</div>
+</div>
+<footer>
+	<div><span class="semibold">© 2017. helicopter view. All rights reserved. Design and development –</span><span class="extrabold"><span class="aqua">Sponge D&D.</span></span></div>
+</footer>
+</div>
+</body>
+</html>
